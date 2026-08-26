@@ -5,14 +5,14 @@
 
 config = require("scp_config")
 functions = require("scp_functions")
-postitions = {1 = {7, 9},
-              2 = {10, 10},
-			  3 = {12, 12},
-			  4 = {10, 14},
-			  5 = {7, 15},
-			  6 = {4, 14}
-			  7 = {2, 12},
-			  8 = {4, 10}}
+postitions = {[1] = {7, 9},
+              [2] = {10, 10},
+			  [3] = {12, 12},
+			  [4] = {10, 14},
+			  [5] = {7, 15},
+			  [6] = {4, 14}
+			  [7] = {2, 12},
+			  [8] = {4, 10}}
 sides = "WNES"
 
 heading = getHeading() * 180 / math.pi
