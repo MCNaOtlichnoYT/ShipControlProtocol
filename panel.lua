@@ -5,7 +5,7 @@
 
 config = require("scp_config")
 functions = require("scp_functions")
-postitions = {[1] = {7, 9},
+positions = {[1] = {7, 9},
               [2] = {10, 10},
 			  [3] = {12, 12},
 			  [4] = {10, 14},
