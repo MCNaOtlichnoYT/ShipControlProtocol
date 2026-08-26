@@ -16,7 +16,7 @@ postitions = {[1] = {7, 9},
 sides = "WNES"
 
 heading = getHeading() * 180 / math.pi
-print("Ship Control Protocol v2.1')
+print("Ship Control Protocol v2.1")
 print("--------------------------------------------------")
 print("Testing is required for correct flights")
 print("Look forward and check your orientation compared")
