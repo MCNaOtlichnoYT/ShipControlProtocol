@@ -56,7 +56,7 @@ for i = 0, 3 do
 	n = start + i * 2
 	if n > 8 then n = n - 8 end
 	term.setCursorPos(positions[n][1], positions[n][2])
-	term.write(string.sub(sides, n + 1, n + 1)
+	term.write(string.sub(sides, n + 1, n + 1))
 end
 while true do
 	term.clear()
