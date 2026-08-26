@@ -58,6 +58,7 @@ for i = 0, 3 do
 	term.setCursorPos(positions[n][1], positions[n][2])
 	term.write(string.sub(sides, n + 1, n + 1))
 end
+io.read()
 while true do
 	term.clear()
 	term.setCursorPos(1, 1)
