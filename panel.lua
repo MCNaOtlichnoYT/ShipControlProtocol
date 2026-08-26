@@ -60,7 +60,7 @@ for i = 0, 3 do
 end
 while true do
 	term.clear()
-	term.setCursosPos(1, 1)
+	term.setCursorPos(1, 1)
 	print("Ship Control Protocol v2.1')
 	print("--------------------------------------------------")
 	print("Enter destination X:")
